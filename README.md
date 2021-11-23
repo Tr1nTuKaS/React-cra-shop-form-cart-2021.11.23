@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+## cra-shop-cart-form-type1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pages
 
-## Available Scripts
+{react-router-dom@^5}
 
-In the project directory, you can run:
+1.Home page
+2.Shop page
+3.Cart page
 
-### `npm start`
+# Shop page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1.fetch/axios items from
+2.Ability to add item to cart
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Cart page
 
-### `npm test`
+1.Checkout process 1.1 form step - does user have an account?(tiems kas darot greiciau) 1.2 form step1 - user details 1.3 form step2 - user detail and items 1.4 form step3 - user card details (number, name on card, csv, date) 1.4.1 button "Pay now" - in case of success payment(true) - empty cart
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# TODO
 
-### `npm run build`
+1.propTypes
+2.localStorage
+3.Empty cart button
+4.Progress bar component - shows steps progress
+5.Show number of items in cart
+6.(extra) - if item exists in cart do not duplicate 7.but increase quantity## Steps/ Uzd
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Steps/ Uzd
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.install router react-hot-toast styled-components
+2.Create empty pages with headings
+3.Navigation component
+4.App.js define main routes
+5.Shop page fetch/axios items
+6.List items on page 6.1 List and items shoud be
+7.react components with props
+8.Create 'add to cart button' next to every item
+9.Button press adds item to cart (context? )
+10.Add user details form (formik)
+11.Validate user form (formik)
+12.Add Step2 - user details + cart items with total amount
+13.Add Step3 - Total ammount + card Details form + Pay now
