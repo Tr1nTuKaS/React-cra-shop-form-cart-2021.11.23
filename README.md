@@ -1,4 +1,4 @@
-## cra-shop-cart-form-type1
+## cra-shop-cart-form
 
 # Pages
 
